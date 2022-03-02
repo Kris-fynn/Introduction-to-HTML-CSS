@@ -8,7 +8,7 @@ h5,
 h6,
 p,
 a,
-button,
+/**button,**/
 input {
     font-family: "Roboto", sans-serif;
 }
@@ -84,8 +84,6 @@ footer {
 
 .aboutme{
     text-align: center;
-    
-
 }
 
 #userImage{
@@ -100,36 +98,16 @@ h2{
     color: #ffffff;
 }
 
-form{
-    margin-top: 50px;
-    transition: all 4s ease-in-out;
-}
-
-.form-control{
-    width:600px;
-    background: transparent;
-    border:none;
-    outline:none;
-    border-bottom:1px solid white;
-    color:#ffffff;
-    font-size: 10px;
-    margin-bottom: 16px;
-}
-
-input{
-    height: 45px;
-    align-items: center;
-}
-
 #my-form-button{
     width:200px;
-    font-size:10px;
+    font-size:18px;
     font-weight: 600;
-    color: #ffffff;
-    cursor:pointer;
-    margin:20px;
-    height:55px;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
     text-align: center;
+    border: none;
     background-size: 300% 100%;
     border-radius: 50px;
     transition: all .4s ease-in-out;
@@ -156,7 +134,6 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    background: url(/Introduction-to-HTML-CSS-main/CodetribeWebsiteFynn/CodetribeBootcampWebsite-main/assets/imgs/space.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -165,16 +142,36 @@ body{
 
 .contact-title{
     margin-top: 100px;
-    color: #ffffff;
+    color: #fff;
     text-transform: uppercase;
     transition: all 4s ease-in-out;
 }
 .contact-title h1{
     font-size: 32px;
     line-height: 10px;
-    width:400px;
+    width: 400px;
     padding: 0 0 20px 0;
     border-bottom: 1.3px solid white;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width:600px;
+    background: transparent;
+    border:none;
+    outline:none;
+    border-bottom:1px solid white;
+    color: white;
+    font-size: 18px;
+    margin-botton: 16px;
+}
+input{
+    height: 45px;
+    align-items: center;
 }
 h1 span:nth-child(1){
     color: #667eea;
@@ -185,11 +182,18 @@ h1 span:nth-child(2){
 }
 
 ::placeholder{
-    color: #ffffff;
+    color: white;
     opacity:0.7;
 }
 
 #my-form-status{
-    color: #ffffff;
+    color: white;
     font-weight: bold;
+}
+.form-submit-botton{
+  background: #B9DFFF;
+  color: #fff;
+  border: 1px solid #eee;
+  border-shadow:  5px 5px 5px #eee;
+  text-shadow: none;
 }
